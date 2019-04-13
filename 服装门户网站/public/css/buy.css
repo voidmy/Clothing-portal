@@ -1,0 +1,84 @@
+
+#buymin{
+   
+    margin-left: 30%;
+    margin-top: 13%;
+    position: absolute;
+}
+#greediv{
+   
+    position: absolute;
+    height: 500px;
+  width:100%;
+  margin-top: 200px;
+  background-color: gray;
+  opacity: 0.5;
+  z-index: -1;
+}
+#goodsmesss{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left:600px;
+    
+}
+#shwopic{
+    float: left;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+#goodsOne{
+    opacity: 0.7;
+}
+#goodspric{
+    opacity: 0.7;
+}
+#goodtwo{
+    opacity: 0.7;
+}
+#secSize{
+    background: yellow;
+    height: 60px;
+    width: 200px;
+   position: absolute;
+}
+#BuyGoods{
+    margin-top: 90px;
+    background: palevioletred;
+    height: 60px;
+    width: 200px;
+}
+#GoodsEvaluatonAndDE{
+    position: absolute;
+   
+    margin-top: 700px;
+    margin-left: 300px;
+}
+.tabh2{
+    margin-left: 230px;
+   
+}
+td{
+    opacity: 0.5;
+    border-bottom: 3px solid #000000;
+   
+}
+.addclasstd{
+    opacity: 1 !important;
+}
+#goodsMIao{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 1300px;
+    height: 600px;
+    z-index: 1;
+}
+#goodsEvalua{
+    position: absolute;
+    display: none;
+    width: 1300px;
+    height: 600px;
+   
+}

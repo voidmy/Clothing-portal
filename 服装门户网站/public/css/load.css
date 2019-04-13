@@ -1,0 +1,50 @@
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+#conbg{
+    width: 100%;
+    height:100vh;
+    background:url('../picture/loadbg.jpg') no-repeat    ;
+    background-size:100% 100%; 
+ 
+}
+#loadview{
+
+    
+    height:60%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#loadview2{
+  
+   opacity: 0;
+   
+    height:60%;
+    width: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    
+  
+}
+#bgopacity{
+    background:url('../picture/load2.jpg');
+    height:60%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    z-index: 1;
+   
+}

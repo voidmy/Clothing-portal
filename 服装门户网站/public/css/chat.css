@@ -1,0 +1,88 @@
+.charcon{
+    border:1px solid;
+    height: 300px;
+    width: 270px; 
+    overflow:auto;
+    
+ }
+ .charname{
+    border:1px solid;
+    height: 300px;
+    width: 70px; 
+    overflow:auto;
+    float:left;
+    border-right: 0px;
+   
+ }
+ .obname{
+   
+    height: 30px;
+    width: 70px; 
+    overflow:auto;
+    float:left;
+    border-bottom:1px solid;
+    
+ }
+ .nackname{
+    height: 30px;
+    width: 70px; 
+    overflow:auto;
+    background: gray;
+    border-bottom:1px solid;
+    opacity: 0.5;
+ }
+ .nackcon{
+  
+   height: 300px;
+   width: 270px; 
+   overflow:auto;
+   background:white;
+  
+ }
+ .chatstyle
+ {
+    
+    margin-left: 50px;
+    background-color: bisque;
+    display: block;
+ }
+ #chatdiv{
+    position: absolute;
+    left: 1550px;
+    top: 500px;
+    position: fixed;
+ }
+ .chatstyle{
+   max-width:150px; 
+   float: right;
+   margin-right: 8px;
+   background-color:bisque;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   word-wrap:break-word;
+    overflow:hidden;
+   
+ }
+ .chatstyle2{
+   max-width:150px; 
+   float:left;
+   margin-left: 8px;
+   background-color:bisque;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   word-wrap:break-word;
+    overflow:hidden;
+ }
+ .Pchatstyle{
+   text-align:right;
+   opacity: 0.6; 
+   margin-bottom: 0px;
+   margin-right: 8px;
+   margin-top: 0px;
+ }
+ .Pchatstyle2{
+   opacity: 0.6; 
+   margin-bottom: 0px;
+   margin-left: 8px;
+   margin-top: 0px;
+ }

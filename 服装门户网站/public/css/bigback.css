@@ -1,0 +1,124 @@
+#backree{
+    background:white;
+    height: 1200px;
+    width:1920px;
+}
+#navigation{
+    top: 0px;
+    background-color: black;
+    width: 1920px;
+    height: 60px;
+    position: fixed;
+   
+}
+#img{
+  width: 60px;
+  height:60px;
+  position: relative;
+  left: 350px;
+  float: left;
+}
+.navmun{
+    position: relative;
+    left: 390px;
+    color:white;
+    float: left;
+    width: 50px;
+   top: 10px;
+}
+#selectext{
+    position: relative;
+    left: 690px;
+    height: 26px;
+    top: 11px;
+   
+}
+#selecbtn{
+    position: relative;
+    width: 30px;
+    height:30px;
+    left: 690px;
+    top: 20px;
+}
+#CouSer{
+    color: white ;
+    position: relative;
+    left: 720px; 
+    cursor: pointer;
+
+}
+#load{
+    color: white ;
+    position: relative;
+    left: 1180px;
+    display: block;
+    float: left;
+    top: -4px;
+    cursor: pointer;
+}
+#reload{
+    color:yellow ;
+    position: relative;
+    left: 1184px;
+    display: block;
+    float: left;
+    top: -4px;
+    cursor: pointer;
+    display: none;
+}
+#shoppcar{
+    color: white ;
+    position: relative;
+    left: 1210px;
+    display: block;
+    float: left;
+    top: -4px;
+}
+#shelesGoods{
+    color: white ;
+    position: relative;
+    left: 1210px;
+    display: block;
+    float: left;
+    top: -4px;
+    display: none;
+}
+#helpinformation{
+    color: white ;
+    position: relative;
+    left: 1250px;
+    display: block;
+    float: left;
+    top: -4px;
+}
+
+#loaddiv td{
+    font-size: x-large;
+}
+#switchpicu{
+   
+    height:520px;
+    width: 1920px;
+   margin-top: 60px;
+   overflow: hidden;
+  
+    
+}
+.swclass{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#DivRecommended{
+   
+    margin-left: 12%;
+    height: 500px;
+}
+.reconImg{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#weekSelling{
+    margin-left: 12%;
+    height: 500px;
+}

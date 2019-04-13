@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+<meta charset="UTF-8">
+<script src="../../public/js/jquery-3.3.1.min.js"></script>
+<script src="../../public/carhartl-jquery-cookie-3caf209/jquery.cookie.js"></script>
+<link rel="stylesheet" href="../../public/css/adminstrator.css">
+
+<body>
+    <div id="Admin" style="margin-left:10%">
+        <div>
+            <select id="chooseImgSize" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                <option value="1" disabled selected hidden>请选择上传图片大小</option>
+                <option value="230|230">宽230px 高230px</option>
+                <option value="1920|520">宽1920px 高520px</option>
+            </select>
+
+        </div>
+        <div style="margin-left:10%;">
+
+            <form enctype="multipart/form-data" method="post" class="upload-cont">
+                <input type="file" name="files1" class="files1">
+
+
+                <select id="chooseBrandSeries" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                    <option value='' disabled selected hidden>请选择商品系列</option>
+                    <option value="奢华系列">奢华系列</option>
+                    <option value="酷雅系列">酷雅系列</option>
+                    <option value="国际优雅">国际优雅</option>
+                    <option value="">平凡质朴</option>
+                </select>
+                <select id="chooseSex" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                    <option value='' disabled selected hidden>请选择性别</option>
+                    <option value="男">男子</option>
+                    <option value="女">女子</option>
+                </select>
+                <input id="Price" type="number" placeholder="请输入价格" pattern="[0-9]" style="height:40px; font-size: x-large">
+                <br>
+                <br>
+                <br>
+                <select id="GoodsDescribleOne" style="height:50px;width:250px; font-size: x-large;margin-left: 16.8%;">
+                    <option value='' disabled selected hidden>请选择商品类型一</option>
+                    <option value="紧身裤">紧身裤</option>
+                    <option value="袜子">袜子</option>
+                    <option value="短袖T恤">短袖T恤</option>
+                    <option value="短裤">短裤</option>
+                    <option value="长裤">长裤</option>
+                    <option value="上衣">上衣</option>
+                </select>
+                <select id="GoodsDescribleTwo" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                    <option value='' disabled selected hidden>请选择商品类型二</option>
+                    <option value="运动">运动</option>
+                    <option value="休闲">休闲</option>
+                    <option value="正装">正装</option>
+                </select>
+                <select id="GoodsDescribleThree" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                        <option value='' disabled selected hidden>请选择商品类型三</option>
+                        <option value="儿童">儿童</option>
+                        <option value="成人">成人</option>
+                    </select>
+                    <select id="GoodsDescribleFoue" style="height:50px;width:250px; font-size: x-large;margin-left: 1%;">
+                            <option value='' disabled selected hidden>请选择商品类型四</option>
+                            <option value="鞋类">鞋类</option>
+                            <option value="服装">服装</option>
+                            <option value="箱包|配件">箱包|配件</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <textarea   id="GoodsDescribleFive"    placeholder="请输入对商品介绍"name="" cols="" rows=""></textarea>
+                       <br>
+                       <br>
+                <input id="formshangchuan" type="button" class="uploadBtn" value="点击上传">
+            </form>
+           
+           
+        </div>
+       
+    </div>
+    <div id="imgshowDiv"> <img id="showimg"></div>
+</body>
+
+<script type="text/javascript" src="../../public/js/admingstretor.js"> </script>
+
+
+</html>

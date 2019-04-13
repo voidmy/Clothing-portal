@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../carhartl-jquery-cookie-3caf209/jquery.cookie.js"></script>
+        <link  rel="stylesheet" href="../css/BrowseGoods.css">
+    </head>
+    <body>
+        <div id="GoodsBody">
+          <div id="headstyle">
+              <img style="height:520px;width: 1920px;">
+          </div>
+          <div id="manycont">
+              <div id="SelectNav">
+                 <div style=" background: #dddddd;;height: 67px;padding-top: 8px;">
+                    <p style="float:left;font-size: x-large;display: block;margin-top:2%;margin-bottom: 0%; cursor: pointer;">您的选择</p>
+                    <p id="reseclectBtn" style="margin-left:65%;margin-top: 4%; cursor: pointer;">重置筛选</p>
+                 </div>
+                 <div>
+                     <h2  style="margin-left: 10px;" >筛选条件</h2>
+                     <hr style="color:#dddddd;margin-left: 10px;margin-right:10px">
+                 </div>
+                 <div id="selDivSex">
+                        <h2  style="margin-left: 10px;" >性别</h2>
+                        <input type="checkbox"  name="checkbox1" value="男" class="SelBox"> <p class="Seletext">男子</p><br>
+                        <input type="checkbox" name="checkbox1" value="女" class="SelBox"> <p class="Seletext">女子</p>
+                        <hr style="color:#dddddd;margin-left: 10px;margin-right:10px">
+                 </div>
+                 <div>
+                        <h2  style="margin-left: 10px;" >产品分类</h2>
+                        <input type="checkbox" name="checkbox2" value="鞋类" class="SelBox"> <p class="Seletext">鞋类</p>
+                        <input type="checkbox" name="checkbox2" value="服装" class="SelBox"> <p class="Seletext">服装</p>
+                        <input type="checkbox" name="checkbox2" value="箱包|配件" class="SelBox"> <p class="Seletext">箱包/配件</p>
+                        <hr style="color:#dddddd;margin-left: 10px;margin-right:10px">
+                 </div>
+                 <div>
+                        <h2  style="margin-left: 10px;" >产品类型</h2>
+                        <input type="checkbox" name="checkbox3" value="紧身裤" class="SelBox"> <p class="Seletext">紧身裤</p>
+                        <input type="checkbox" name="checkbox3" value="袜子" class="SelBox"> <p class="Seletext">袜子</p>
+                        <input type="checkbox" name="checkbox3" value="短袖T恤" class="SelBox"> <p class="Seletext">短袖T恤</p>
+                        <input type="checkbox" name="checkbox3" value="短裤" class="SelBox"> <p class="Seletext">短裤</p>
+                        <input type="checkbox" name="checkbox3" value="长裤" class="SelBox"> <p class="Seletext">长裤</p>
+                        <input type="checkbox" name="checkbox3" value="上衣" class="SelBox"> <p class="Seletext">上衣</p>
+                        <hr style="color:#dddddd;margin-left: 10px;margin-right:10px">
+                 </div>
+                 <div>
+                        <h2  style="margin-left: 10px;" >品牌系列</h2>
+                        <input type="checkbox" name="checkbox4" value="奢华系列" class="SelBox"> <p class="Seletext">奢华系列</p>
+                        <input type="checkbox" name="checkbox4" value="酷雅系列" class="SelBox"> <p class="Seletext">酷雅系列</p>
+                        <input type="checkbox" name="checkbox4" value="国际优雅" class="SelBox"> <p class="Seletext">国际优雅</p>
+                       
+                        <hr style="color:#dddddd;margin-left: 10px;margin-right:10px">
+                 </div>
+              </div>
+              <div>
+                    <select id="optionsort"  style="height:50px;width:190px; font-size: x-large;margin-left: 1%;">
+                            <option value="" disabled selected hidden>请选择排序方式</option>
+                        <option value="sales">销量从高到低</option> 
+                        <option value="views">浏览量从高到低</option>
+                       <option value="shelfTime">最新上架时间</option> 
+                       <option value="priceHL">价格从高到低</option>  
+                       <option value="priceLH">价格从低到高</option> 
+                       <option value="evaluation">评价多到少</option>             
+                   </select>
+                   <select id="optionsort"  style="height:50px;width:190px; font-size: x-large;margin-left: 30%;">
+                        <option value="" disabled selected hidden>1</option>
+                              
+               </select>
+               
+              </div>
+              
+              <div id="GoodsShow">
+
+              </div>
+          </div>
+        </div>
+       
+    </body>
+       <script  src="../js/BrowseGoods.js"></script>
+
+</html>
